@@ -88,7 +88,7 @@ function check()
       b=[];
      c=[];
     }
-    setTimeout(see,1500);
+    setTimeout(see,1000);
   }
 }
 function aoc()
