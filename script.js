@@ -2,6 +2,7 @@ var rap=0;
 var kap=0;
 var b=[];
 var c=[];
+var buttons=[1,2,3,4,5,6,7,8,9,10,11,12];
 var i=0;
 var count=0;
 var moves=0;
@@ -56,6 +57,11 @@ function check()
  document.getElementById('b'+c[1]).innerHTML='<img src="img'+b[1]+'.png">';
     document.getElementById('b'+c[0]).disabled=true;
     document.getElementById('b'+c[1]).disabled=true;
+  buttons=buttons.filter((i)=>{
+    if(i!=c[0] && i!=c[1]){
+      return i;
+    }
+  });
   b=[];
   c=[];
     kappa++;
@@ -65,16 +71,24 @@ function check()
   }
    if(b[0]!=b[1])
   { 
+    buttons.forEach(gh);
+    function gh(item){
+      document.getElementById('b'+item).disabled=true;
+    }
     function see(){
       document.getElementById('b'+c[0]).innerHTML="?";
     document.getElementById('b'+c[1]).innerHTML="?";
       document.getElementById('b'+c[0]).disabled=false;
     document.getElementById('b'+c[1]).disabled=false;
+    buttons.forEach(gh);
+    function gh(item){
+      document.getElementById('b'+item).disabled=false;
+    }
       
       b=[];
      c=[];
     }
-    setTimeout(see,300);
+    setTimeout(see,2000);
   }
 }
 function aoc()
