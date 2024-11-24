@@ -1,0 +1,274 @@
+#home
+{  width:250px;
+  height:100px;
+  position:absolute;
+  top:1400px;
+  left:550px;
+  font-size:56px;
+  font-weight:bolder;
+   color:white;
+  font-family:serif;
+  background-color:black;
+  border-radius:15px;
+  display:none;
+}
+#reset
+{ width:250px;
+  height:100px;
+  position:absolute;
+  top:1000px;
+  left:370px;
+  font-size:56px;
+  font-weight:bolder;
+   color:white;
+  font-family:serif;
+  background-color:black;
+  border-radius:15px;
+  display:none;
+  border:2px solid black;
+}
+#gold
+{ position:absolute;
+  top:350px;
+  left:130px;
+  width:500px;
+  height:300px;
+}
+#res
+{ position:absolute;
+  font-size:50px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:80px;
+  top:250px;
+}
+#text
+{ position:absolute;
+  font-size:75px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:120px;
+  top:100px;
+}
+
+#head
+{ position:absolute;
+  font-size:65px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:100px;
+  top:-5px;
+  text-decoration:underline;
+  text-underline-offset:20px;
+}
+  
+#winner
+{ width:750px;
+  height:700px;
+  background-color:white;
+  border-radius:5%;
+  position:absolute;
+  left:120px;
+  top:250px;
+  display:none;
+}
+#moves
+{position:absolute;
+  top:930px;
+  left:190px;
+  font-size:50px;
+  font-family:serif;
+  font-weight:bolder;
+}
+img
+{ width:150px;
+  height:150px;
+}
+#buttons
+{ width:800px;
+  height:0px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  position:absolute;
+  top:130px;
+  left:60px;
+  
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b11,#b12
+{ width:200px;
+  height:200px;
+  background-color:black;
+  color:white;
+  font-size:90px;
+  font-style:serif;
+  font-weight:bolder;
+}
+
+body
+{ background-color:#FFC000;
+}
+#container
+{ width:750px;
+  height:1100px;
+  background-color:white;
+  border-radius:5%;
+  position:absolute;
+  left:120px;
+  top:250px;
+  display:none;
+}
+#heading
+{ font-size:65px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:130px;
+  top:-10px;
+}
+#logo
+{width:500px;
+  height:500px;
+  border-radius:50%;
+  position:absolute;
+  top:500px;
+  left:250px;
+}
+@media screen and (min-width:1000px){
+  #reset
+{ width:150px;
+  height:50px;
+  position:absolute;
+  top:450px;
+  left:620px;
+  font-size:35px;
+  font-weight:bolder;
+   color:white;
+  font-family:serif;
+  background-color:black;
+  border-radius:15px;
+  display:none;
+  border:2px solid black;
+}
+#gold
+{ position:absolute;
+  top:180px;
+  left:80px;
+  width:250px;
+  height:150px;
+}
+#res
+{ position:absolute;
+  font-size:30px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:60px;
+  top:120px;
+}
+#text
+{ position:absolute;
+  font-size:35px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:110px;
+  top:50px;
+}
+
+#head
+{ position:absolute;
+  font-size:35px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:90px;
+  top:-5px;
+  text-decoration:underline;
+  text-underline-offset:20px;
+}
+  #winner
+{ width:400px;
+  height:350px;
+  background-color:white;
+  border-radius:5%;
+  position:absolute;
+  left:500px;
+  top:70px;
+  display:none;
+}
+  img{
+    width:80px;
+    height:80px;
+  }
+  #logo
+{width:300px;
+  height:300px;
+  border-radius:50%;
+  position:absolute;
+  top:140px;
+  left:550px;
+}
+body
+{ background-color:#FFC000;
+  overflow:hidden;
+}
+#container
+{ width:400px;
+  height:580px;
+  background-color:white;
+  border-radius:5%;
+  position:absolute;
+  left:500px;
+  top:30px;
+  display:none;
+}
+#heading
+{ font-size:35px;
+  position:absolute;
+  font-weight:bolder;
+   color:black;
+  font-family:serif;
+  left:100px;
+  top:0px;
+}
+#buttons
+{ width:400px;
+  height:0px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  position:absolute;
+  top:80px;
+  left:45px;
+  
+}
+#moves
+{position:absolute;
+  top:490px;
+  left:120px;
+  font-size:30px;
+  font-family:serif;
+  font-weight:bolder;
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b11,#b12
+{ width:100px;
+  height:100px;
+  background-color:black;
+  color:white;
+  font-size:45px;
+  font-style:serif;
+  font-weight:bolder;
+}
+
+}
