@@ -12,6 +12,9 @@
   border-radius:15px;
   display:none;
 }
+#images-container{
+  display:none;
+}
 #reset
 { width:250px;
   height:100px;
@@ -270,5 +273,8 @@ body
   font-style:serif;
   font-weight:bolder;
 }
+  #images-container{
+  display:none;
+  }
 
 }
