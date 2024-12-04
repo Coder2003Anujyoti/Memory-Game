@@ -1,3 +1,10 @@
+
+*{
+  font-family:Arial,sans-serif;
+}
+#images-container{
+  display:none;
+}
 #home
 {  width:250px;
   height:100px;
@@ -7,12 +14,8 @@
   font-size:56px;
   font-weight:bolder;
    color:white;
-  font-family:serif;
   background-color:black;
   border-radius:15px;
-  display:none;
-}
-#images-container{
   display:none;
 }
 #reset
@@ -24,11 +27,9 @@
   font-size:56px;
   font-weight:bolder;
    color:white;
-  font-family:serif;
   background-color:black;
   border-radius:15px;
   display:none;
-  border:2px solid black;
 }
 #gold
 { position:absolute;
@@ -43,8 +44,7 @@
   position:absolute;
   font-weight:bolder;
    color:black;
-  font-family:serif;
-  left:80px;
+  left:120px;
   top:250px;
 }
 #text
@@ -53,8 +53,7 @@
   position:absolute;
   font-weight:bolder;
    color:black;
-  font-family:serif;
-  left:120px;
+  left:160px;
   top:100px;
 }
 
@@ -64,8 +63,7 @@
   position:absolute;
   font-weight:bolder;
    color:black;
-  font-family:serif;
-  left:100px;
+  left:150px;
   top:-5px;
   text-decoration:underline;
   text-underline-offset:20px;
@@ -84,9 +82,8 @@
 #moves
 {position:absolute;
   top:930px;
-  left:190px;
+  left:210px;
   font-size:50px;
-  font-family:serif;
   font-weight:bolder;
 }
 img
@@ -110,7 +107,6 @@ img
   background-color:black;
   color:white;
   font-size:90px;
-  font-style:serif;
   font-weight:bolder;
 }
 
@@ -132,8 +128,7 @@ body
   position:absolute;
   font-weight:bolder;
    color:black;
-  font-family:serif;
-  left:130px;
+  left:160px;
   top:-10px;
 }
 #logo
